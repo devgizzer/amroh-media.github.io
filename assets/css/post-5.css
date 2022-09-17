@@ -1,0 +1,86 @@
+.elementor-kit-5 {
+    --e-global-color-primary: #845a27;
+    --e-global-color-secondary: #d2b591;
+    --e-global-color-text: #845a27;
+    --e-global-color-accent: #ffffff;
+    --e-global-color-4527dd6: #5f7161;
+    --e-global-color-775526e: #6d8b74;
+    --e-global-color-94e8334: #efead8;
+    --e-global-color-387d35b: #d0c9c0;
+    --e-global-color-03b936f: #9a86a4;
+    --e-global-color-4c44d80: #b1bce6;
+    --e-global-color-0943ea8: #b7e5dd;
+    --e-global-color-b1944de: #f1f0c0;
+    --e-global-color-594299e: #818181;
+    --e-global-color-6d6faf8: #4f583d;
+    --e-global-color-c47fbea: #85865f;
+    --e-global-color-819e9c5: #ceb793;
+    --e-global-color-e445814: #f5eacf;
+    --e-global-color-1d48f6f: #8fa6ac;
+    --e-global-color-5227c15: #8a584c;
+    --e-global-color-00038c5: #2b2b28;
+    --e-global-color-0c479b4: #e3b04b;
+    --e-global-color-ac452f4: #f1d6ab;
+    --e-global-color-a572560: #f8f8f8;
+    --e-global-typography-primary-font-family: "Cormorant Garamond";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Josefin Sans";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-7d6f2d7-font-family: "Cinzel";
+    --e-global-typography-20b8ee8-font-family: "Fauna One";
+    --e-global-typography-38b9803-font-family: "Amatic SC";
+    --e-global-typography-3c50a52-font-family: "Andika";
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1140px;
+  }
+  .e-container {
+    --container-max-width: 1140px;
+  }
+  .elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .elementor-element {
+    --widgets-spacing: 20px;
+  }
+
+  h1.entry-title {
+    display: var(--page-title-display);
+  }
+  .elementor-kit-5 e-page-transition {
+    background-color: #ffffff;
+  }
+  .site-header {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  @media (max-width: 1024px) {
+    .elementor-section.elementor-section-boxed > .elementor-container {
+      max-width: 1024px;
+    }
+    .e-container {
+      --container-max-width: 1024px;
+    }
+  }
+  @media (max-width: 767px) {
+    .elementor-section.elementor-section-boxed > .elementor-container {
+      max-width: 767px;
+    }
+    .e-container {
+      --container-max-width: 767px;
+    }
+    .elementor-kit-5 {
+      --e-page-transition-entrance-animation: e-page-transition-fade-out;
+    }
+  } /* Start custom CSS */
+  .grecaptcha-badge {
+    display: none !important;
+  } /* End custom CSS */
+  
+  .margin-top-higher {
+    margin-top: 20px !important;
+  }
